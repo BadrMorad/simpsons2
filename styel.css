@@ -131,3 +131,208 @@ footer {
   color: white;
   background-color: rgb(8, 106, 218);
 }
+
+/* ************** Media Queries pour Téléphones Portables ******************* */
+@media (max-width: 480px) {
+  body {
+    background-color: goldenrod; 
+  }
+
+  #container {
+    width: 100%; 
+    margin: auto;
+  }
+
+  header,
+  nav,
+  aside {
+    width: 100%; 
+    text-align: center; 
+  }
+
+  aside {
+    font-size: large; 
+  }
+
+  article {
+    width: 100%; 
+    margin-bottom: 1em; 
+  }
+
+  .boy {
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+  }
+
+  .boy > figure {
+    width: 100%; */
+    height: auto; 
+    margin-bottom: 20px; 
+  }
+
+  .boy > figure > img {
+    width: 100%; 
+  }
+
+  nav ul {
+    list-style-type: none; 
+    padding: 0; 
+  }
+
+  li {
+    display: block; 
+    margin-bottom: 10px; 
+  }
+
+  nav li {
+    font-size: 14px; 
+  }
+
+  h3 {
+    padding-bottom: 20px; 
+  }
+
+  footer {
+    margin-top: 30px; /* Espacement supérieur */
+  }
+}
+
+/* **************  Pour Tablettes ******************* */
+@media (max-width: 768px) {
+  body {
+    background-color: goldenrod; /* Conserver la couleur d'origine */
+  }
+
+  #container {
+    width: 100%; 
+    margin: auto;
+  }
+
+  header,
+  nav,
+  aside {
+    width: 100%; 
+    text-align: center; 
+  }
+
+  aside {
+    font-size: large; 
+  }
+
+  article {
+    width: 100%; 
+    margin-bottom: 1em;
+  }
+
+  .boy {
+    display: flex;
+    flex-direction: row; /
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+  }
+
+  .boy > figure {
+    width: 48%; 
+    height: auto; 
+    margin-bottom: 20px; 
+  }
+
+  .boy > figure > img {
+    width: 100%; 
+  }
+
+  nav ul {
+    list-style-type: none; 
+    padding: 0; 
+  }
+
+  li {
+    display: inline-block;/
+    margin-right: 10px; 
+  }
+
+  nav li {
+    font-size: 16px; /
+  }
+
+  h3 {
+    padding-bottom: 20px;
+  }
+
+  footer {
+    margin-top: 30px; /* Espacement supérieur */
+  }
+}
+
+/* **************  Pour Ordinateurs de Bureau ******************* */
+@media (min-width: 769px) {
+  body {
+    background-color: goldenrod; 
+  }
+
+  #container {
+    width: 100%; 
+    margin: auto; 
+  }
+
+  header,
+  nav,
+  aside {
+    width: 100%; 
+    text-align: center; /* Centrer le texte */
+  }
+
+  aside {
+    width: 25%; 
+    font-size: large; 
+    padding: 1.4em; 
+    float: left; 
+  }
+
+  article {
+    width: 75%; 
+    padding-right: 1em; 
+    margin-bottom: 1em; 
+    float: right; 
+  }
+
+  .boy {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+  }
+
+  .boy > figure {
+    width: 30%; 
+    height: auto; 
+    margin-bottom: 20px; 
+  }
+
+  .boy > figure > img {
+    width: 100%; /* Images prennent toute la largeur */
+  }
+
+  nav ul {
+    list-style-type: none; 
+    padding: 0; 
+  }
+
+  li {
+    display: inline-block; 
+
+    margin-right: 20px; 
+  }
+
+  nav li {
+    font-size: 18px; /* Ajuster la taille des liens */
+  }
+
+  h3 {
+    padding-bottom: 40px; 
+  }
+
+  footer {
+    margin-top: 30px; /* Espacement supérieur */
+  }
+}
