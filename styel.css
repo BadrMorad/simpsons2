@@ -156,7 +156,7 @@ footer {
 
   article {
     width: 100%; 
-    margin-bottom: 1em; 
+    margin-bottom: 1em; /* Espacement en bas */
   }
 
   .boy {
@@ -166,13 +166,13 @@ footer {
   }
 
   .boy > figure {
-    width: 100%; */
+    width: 100%; 
     height: auto; 
     margin-bottom: 20px; 
   }
 
   .boy > figure > img {
-    width: 100%; 
+    width: 100%; /* Images prennent toute la largeur */
   }
 
   nav ul {
@@ -181,7 +181,7 @@ footer {
   }
 
   li {
-    display: block; 
+    display: block; /* Les éléments de liste s'affichent en colonne */
     margin-bottom: 10px; 
   }
 
@@ -194,14 +194,14 @@ footer {
   }
 
   footer {
-    margin-top: 30px; /* Espacement supérieur */
+    margin-top: 30px; 
   }
 }
 
 /* **************  Pour Tablettes ******************* */
 @media (max-width: 768px) {
   body {
-    background-color: goldenrod; /* Conserver la couleur d'origine */
+    background-color: goldenrod; 
   }
 
   #container {
@@ -222,12 +222,12 @@ footer {
 
   article {
     width: 100%; 
-    margin-bottom: 1em;
+    margin-bottom: 1em; 
   }
 
   .boy {
     display: flex;
-    flex-direction: row; /
+    flex-direction: row; 
     flex-wrap: wrap; 
     justify-content: space-between; 
   }
@@ -248,16 +248,16 @@ footer {
   }
 
   li {
-    display: inline-block;/
+    display: inline-block; 
     margin-right: 10px; 
   }
 
   nav li {
-    font-size: 16px; /
+    font-size: 16px; 
   }
 
   h3 {
-    padding-bottom: 20px;
+    padding-bottom: 20px; 
   }
 
   footer {
@@ -272,7 +272,7 @@ footer {
   }
 
   #container {
-    width: 100%; 
+    width: 1%; 
     margin: auto; 
   }
 
@@ -280,14 +280,14 @@ footer {
   nav,
   aside {
     width: 100%; 
-    text-align: center; /* Centrer le texte */
+    text-align: center; 
   }
 
   aside {
     width: 25%; 
     font-size: large; 
     padding: 1.4em; 
-    float: left; 
+    float: left; /* Alignement à gauche */
   }
 
   article {
@@ -310,7 +310,7 @@ footer {
   }
 
   .boy > figure > img {
-    width: 100%; /* Images prennent toute la largeur */
+    width: 100%; 
   }
 
   nav ul {
@@ -320,12 +320,11 @@ footer {
 
   li {
     display: inline-block; 
-
     margin-right: 20px; 
   }
 
   nav li {
-    font-size: 18px; /* Ajuster la taille des liens */
+    font-size: 18px; 
   }
 
   h3 {
@@ -333,6 +332,6 @@ footer {
   }
 
   footer {
-    margin-top: 30px; /* Espacement supérieur */
+    margin-top: 30px; 
   }
 }
