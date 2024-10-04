@@ -79,7 +79,8 @@ li {
   padding: 10px 20px 10px 20px;
 }
 .textesimpsons {
-  margin-bottom: 1.3em;
+  padding-bottom: 1.3em;
+  text-align: justify;
 }
 nav {
   width: 100%; /* Définit la largeur du nav à 80% de la largeur du main */
@@ -121,7 +122,6 @@ section {
 
 img {
   width: 80%;
-  margin-bottom: 2em;
 }
 
 footer {
